@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WelcomeController;
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,7 +22,9 @@ Route::get('/', function () {
 /******************Route for Home ***************/
 Route::get('/', [WelcomeController::class, 'index'])->name('login');
 Route::post('/', [WelcomeController::class, 'authenticate'])->name('userAuthenticate');
-Route::get('/welcome', [WelcomeController::class, 'welcome'])->name('welcomeView');
-
+Route::get('/adduser', [UserController::class, 'index'])->name('addUser');
+Route::post('/adduser', [UserController::class, 'store'])->name('createInvoice');
+Route::get('/welcome', [WelcomeController::class, 'welcome'])->name('welcome');
+Route::get('/logout', [WelcomeController::class, 'logout']);
 
 

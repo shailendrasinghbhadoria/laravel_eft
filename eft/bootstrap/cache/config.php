@@ -10,7 +10,7 @@
     'locale' => 'en',
     'fallback_locale' => 'en',
     'faker_locale' => 'en_US',
-    'key' => 'base64:pfbgLc3tLRjClyox2gZpfA9e8/tD7oUcO4iTnH+2Nvg=',
+    'key' => 'base64:9pwj98eD77NdLMaZHsStbQdRy5YwQfnpQJxGC39VUkA=',
     'cipher' => 'AES-256-CBC',
     'providers' => 
     array (
@@ -184,7 +184,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'E:\\xampp\\htdocs\\laravel_project\\eft\\storage\\framework/cache/data',
+        'path' => 'F:\\xampp\\htdocs\\laravel-project\\laravel_eft\\eft\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -355,12 +355,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'E:\\xampp\\htdocs\\laravel_project\\eft\\storage\\app',
+        'root' => 'F:\\xampp\\htdocs\\laravel-project\\laravel_eft\\eft\\storage\\app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'E:\\xampp\\htdocs\\laravel_project\\eft\\storage\\app/public',
+        'root' => 'F:\\xampp\\htdocs\\laravel-project\\laravel_eft\\eft\\storage\\app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
       ),
@@ -378,7 +378,7 @@
     ),
     'links' => 
     array (
-      'E:\\xampp\\htdocs\\laravel_project\\eft\\public\\storage' => 'E:\\xampp\\htdocs\\laravel_project\\eft\\storage\\app/public',
+      'F:\\xampp\\htdocs\\laravel-project\\laravel_eft\\eft\\public\\storage' => 'F:\\xampp\\htdocs\\laravel-project\\laravel_eft\\eft\\storage\\app/public',
     ),
   ),
   'hashing' => 
@@ -398,7 +398,7 @@
   'logging' => 
   array (
     'default' => 'stack',
-    'deprecations' => NULL,
+    'deprecations' => 'null',
     'channels' => 
     array (
       'stack' => 
@@ -413,13 +413,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'E:\\xampp\\htdocs\\laravel_project\\eft\\storage\\logs/laravel.log',
+        'path' => 'F:\\xampp\\htdocs\\laravel-project\\laravel_eft\\eft\\storage\\logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'E:\\xampp\\htdocs\\laravel_project\\eft\\storage\\logs/laravel.log',
+        'path' => 'F:\\xampp\\htdocs\\laravel-project\\laravel_eft\\eft\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -470,7 +470,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'E:\\xampp\\htdocs\\laravel_project\\eft\\storage\\logs/laravel.log',
+        'path' => 'F:\\xampp\\htdocs\\laravel-project\\laravel_eft\\eft\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -536,7 +536,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'E:\\xampp\\htdocs\\laravel_project\\eft\\resources\\views/vendor/mail',
+        0 => 'F:\\xampp\\htdocs\\laravel-project\\laravel_eft\\eft\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -641,7 +641,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'E:\\xampp\\htdocs\\laravel_project\\eft\\storage\\framework/sessions',
+    'files' => 'F:\\xampp\\htdocs\\laravel-project\\laravel_eft\\eft\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -661,9 +661,9 @@
   array (
     'paths' => 
     array (
-      0 => 'E:\\xampp\\htdocs\\laravel_project\\eft\\resources\\views',
+      0 => 'F:\\xampp\\htdocs\\laravel-project\\laravel_eft\\eft\\resources\\views',
     ),
-    'compiled' => 'E:\\xampp\\htdocs\\laravel_project\\eft\\storage\\framework\\views',
+    'compiled' => 'F:\\xampp\\htdocs\\laravel-project\\laravel_eft\\eft\\storage\\framework\\views',
   ),
   'flare' => 
   array (

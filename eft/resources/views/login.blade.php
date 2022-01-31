@@ -5,8 +5,8 @@
 <meta name="author" content="Paweł 'kilab' Balicki - kilab.pl" />
 <title>EFT</title>
 <link rel="stylesheet" type="text/css" href="{{url('css/app.css')}}" />
-<script type="text/javascript" src="js/app.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="{{url('js/app.js')}}"></script>
+<script type="text/javascript" src="{{url('js/bootstrap.js')}}"></script>
 </head>
 <body style="background:#f3f3f3 url({{url('images/bg_login_top.jpg')}})no-repeat top center;">
 <div class="wrap">

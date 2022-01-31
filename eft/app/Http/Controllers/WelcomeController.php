@@ -24,7 +24,7 @@ class WelcomeController extends Controller
            {
             $request->session()->put('user', $user[0]->name);
             $request->session()->put('id', $user[0]->id);
-            return redirect()->route('welcomeView');
+            return redirect()->route('addUser');
            }
     
            else
@@ -42,5 +42,11 @@ class WelcomeController extends Controller
         return view('welcome');
 
     }
+
+    public function logout(Request $request){
+
+      $request->session()->flush();
+      return redirect('/');
+  }
 
 }
